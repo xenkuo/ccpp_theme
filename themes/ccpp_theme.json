@@ -1,6 +1,7 @@
 {
     "name": "C/C++ Theme",
     "author": "Xen Kuo",
+    "based_dracula_version": "2.24.2",
     "dracula": {
         "base": [
             "#282A36",
@@ -1241,7 +1242,7 @@
                 "string.quoted.double"
             ],
             "settings": {
-                "foreground": "#6272A4",
+                "foreground": "#F1FA8C",
                 "fontStyle": "italic"
             }
         },
@@ -1271,7 +1272,7 @@
     "semanticTokenColors": {
         "ccpp_comment1": "=============`ccpp` customized semantic(MS C/C++ and clangd) tokens(includes textmat function related tokens)=============",
         "type": {
-            "note": "1/clangd: uint8_t; c/c++: clangd type + clangd class/enum",
+            "note": "1/clangd: uint8_t; ms c/c++: clangd type + clangd class/enum",
             "foreground": "#8BE9FD",
             "fontStyle": "regular"
         },
@@ -1286,17 +1287,17 @@
             "fontStyle": "regular"
         },
         "macro": {
-            "note": "both clangd and c/c++",
+            "note": "both clangd and ms c/c++",
             "foreground": "#BD93F9",
             "fontStyle": "bold"
         },
         "enumMember": {
-            "note": "both clangd and c/c++",
+            "note": "both clangd and ms c/c++",
             "foreground": "#8BE9FD",
             "fontStyle": "bold"
         },
         "label": {
-            "note": "c/c++ only",
+            "note": "ms c/c++ only",
             "foreground": "#FF5555",
             "fontStyle": "underline"
         },
@@ -1327,11 +1328,11 @@
             "fontStyle": "italic"
         },
         "method": {
-            "note": "c/c++ has same token",
+            "note": "ms c/c++ has same token",
             "foreground": "#50FA7B",
             "fontStyle": "italic"
         },
-        "entity.name.function.member": {
+        "entity.name.function.member.cpp": {
             "foreground": "#50FA7B",
             "fontStyle": "italic"
         },
@@ -1355,7 +1356,7 @@
             "foreground": "#50FA7B",
             "fontStyle": "bold"
         },
-        "ccpp_comment1.1.1": "=============`ccpp` customized c/c++ function tokens=============",
+        "ccpp_comment1.1.1": "=============`ccpp` customized ms c/c++ function tokens=============",
         "method.static": {
             "note": "another method token is shared with clangd",
             "foreground": "#50FA7B",
@@ -1363,39 +1364,39 @@
         },
         "function": {
             "foreground": "#50FA7B",
-            "fontStyle": "bold underline"
+            "fontStyle": "bold"
         },
         "ccpp_comment1.1.2": "=============`ccpp` customized textmate function tokens=============",
         "ccpp_comment1.1.2.1": "=============seems semantic engine has higher priority, so below tokens has no effect=============",
-        "meta.function-call": {
+        "meta.function-call.c": {
             "foreground": "#50FA7B",
             "fontStyle": "bold"
         },
-        "meta.function.definition": {
+        "meta.function.definition.c": {
             "foreground": "#50FA7B",
             "fontStyle": "bold"
         },
-        "entity.name.function.definition": {
+        "entity.name.function.definition.cpp": {
             "foreground": "#50FA7B",
             "fontStyle": "bold"
         },
-        "entity.name.function.call": {
+        "entity.name.function.call.cpp": {
             "foreground": "#50FA7B",
             "fontStyle": "bold"
         },
         "ccpp_comment1.2": "=============`ccpp` customized variable tokens=============",
         "property": {
-            "note": "clangd: property.*.classScope, c/c++: all non static fields defined inside of class, struct, union",
+            "note": "clangd: property.*.classScope, ms c/c++: all non static fields defined inside of class, struct, union",
             "foreground": "#FFB86C",
             "fontStyle": "regular"
         },
         "parameter": {
-            "note": "clangd: parameter.functionScope, c/c++: parameter",
+            "note": "clangd: parameter.functionScope, ms c/c++: parameter",
             "foreground": "#BD93F9",
             "fontStyle": "regular"
         },
         "parameter.readonly": {
-            "note": "clangd: parameter.functionScope, c/c++: parameter",
+            "note": "clangd: parameter.functionScope, ms c/c++: parameter",
             "foreground": "#BD93F9",
             "fontStyle": "italic"
         },
@@ -1413,39 +1414,39 @@
         },
         "variable.static.functionScope": {
             "foreground": "#FF5555",
-            "fontStyle": "bold"
+            "fontStyle": "bold underline"
         },
         "variable.static.classScope": {
             "foreground": "#FF5555",
-            "fontStyle": "bold"
+            "fontStyle": "bold underline"
         },
         "variable.fileScope": {
             "foreground": "#FF5555",
-            "fontStyle": "bold"
+            "fontStyle": "bold underline"
         },
         "property.static": {
             "foreground": "#FF5555",
-            "fontStyle": "bold"
+            "fontStyle": "bold  underline"
         },
         "variable.readonly.static.classScope": {
             "foreground": "#FF5555",
-            "fontStyle": "bold italic"
+            "fontStyle": "bold italic underline"
         },
         "variable.readonly.fileScope": {
             "foreground": "#FF5555",
-            "fontStyle": "bold italic"
+            "fontStyle": "bold italic underline"
         },
         "variable.globalScope": {
             "foreground": "#FF5555",
-            "fontStyle": "bold underline"
+            "fontStyle": "bold"
         },
         "variable.global": {
             "foreground": "#FF5555",
-            "fontStyle": "bold underline"
+            "fontStyle": "bold"
         },
         "variable.readonly.globalScope": {
             "foreground": "#FF5555",
-            "fontStyle": "bold italic underline"
+            "fontStyle": "bold italic"
         }
     }
 }

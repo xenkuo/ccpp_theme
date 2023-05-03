@@ -4,7 +4,7 @@
     "description": "The language C/C++ focused theme, powered by MS C/C++ and clangd semantic token engine.",
     "version": "0.1.0",
     "engines": {
-        "vscode": "^1.77.0"
+        "vscode": "^1.47.0"
     },
     "maintainers": [
         "Xen Kuo <xenkuo@gmail.com>"
