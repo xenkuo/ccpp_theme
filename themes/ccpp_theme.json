@@ -1178,7 +1178,7 @@
             }
         },
         {
-            "ccpp_comment0": "=============`ccpp` customized textmate tokens(not includes function related tokens)============="
+            "ccpp_comment0": "=============`ccpp` customized textmate tokens============="
         },
         {
             "name": "storage types and modifiers",
@@ -1266,11 +1266,37 @@
                 "foreground": "#BD93F9",
                 "fontStyle": "bold"
             }
+        },
+        {
+            "ccpp_comment0.1": "=============`ccpp` customized textmate function tokens============="
+        },
+        {
+            "name": "function tokens, sometimes ms c/c++ can't recognize all function tokens",
+            "scope": [
+                "meta.function-call.c",
+                "meta.function.definition.c",
+                "entity.name.function.definition.cpp",
+                "entity.name.function.call.cpp"
+            ],
+            "settings": {
+                "foreground": "#50FA7B",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "member type function token",
+            "scope": [
+                "entity.name.function.member.cpp"
+            ],
+            "settings": {
+                "foreground": "#50FA7B",
+                "fontStyle": "italic"
+            }
         }
     ],
     "semanticHighlighting": true,
     "semanticTokenColors": {
-        "ccpp_comment1": "=============`ccpp` customized semantic(MS C/C++ and clangd) tokens(includes textmat function related tokens)=============",
+        "ccpp_comment1": "=============`ccpp` customized semantic(ms c/c++ and clangd) tokens=============",
         "type": {
             "note": "1/clangd: uint8_t; ms c/c++: clangd type + clangd class/enum",
             "foreground": "#8BE9FD",
@@ -1332,10 +1358,6 @@
             "foreground": "#50FA7B",
             "fontStyle": "italic"
         },
-        "entity.name.function.member.cpp": {
-            "foreground": "#50FA7B",
-            "fontStyle": "italic"
-        },
         "function.static.classScope": {
             "foreground": "#50FA7B",
             "fontStyle": "bold"
@@ -1363,24 +1385,6 @@
             "fontStyle": "bold"
         },
         "function": {
-            "foreground": "#50FA7B",
-            "fontStyle": "bold"
-        },
-        "ccpp_comment1.1.2": "=============`ccpp` customized textmate function tokens=============",
-        "ccpp_comment1.1.2.1": "=============seems semantic engine has higher priority, so below tokens has no effect=============",
-        "meta.function-call.c": {
-            "foreground": "#50FA7B",
-            "fontStyle": "bold"
-        },
-        "meta.function.definition.c": {
-            "foreground": "#50FA7B",
-            "fontStyle": "bold"
-        },
-        "entity.name.function.definition.cpp": {
-            "foreground": "#50FA7B",
-            "fontStyle": "bold"
-        },
-        "entity.name.function.call.cpp": {
             "foreground": "#50FA7B",
             "fontStyle": "bold"
         },
