@@ -11,15 +11,23 @@
     ],
     "repository": {
         "type": "git",
-        "url": ""
+        "url": "https://github.com/xenkuo/ccpp_theme.git"
     },
+    "keywords": [
+        "c/c++",
+        "dracula-2.24.2",
+        "dark",
+        "theme",
+        "color-theme "
+    ],
     "categories": [
         "Themes"
     ],
+    "icon": "icon.png",
     "contributes": {
         "themes": [
             {
-                "label": "The C",
+                "label": "C/C++ Theme",
                 "uiTheme": "vs-dark",
                 "path": "./themes/ccpp_theme.json"
             }
