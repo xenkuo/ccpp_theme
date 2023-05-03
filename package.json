@@ -9,6 +9,7 @@
     "maintainers": [
         "Xen Kuo <xenkuo@gmail.com>"
     ],
+    "publisher": "Xen",
     "repository": {
         "type": "git",
         "url": "https://github.com/xenkuo/ccpp_theme.git"
