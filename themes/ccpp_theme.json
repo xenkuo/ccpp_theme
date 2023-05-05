@@ -1396,13 +1396,13 @@
         },
         "parameter": {
             "note": "clangd: parameter.functionScope, ms c/c++: parameter",
-            "foreground": "#BD93F9",
-            "fontStyle": "regular"
+            "foreground": "#FFB86C",
+            "fontStyle": "regular underline"
         },
         "parameter.readonly": {
-            "note": "clangd: parameter.functionScope, ms c/c++: parameter",
-            "foreground": "#BD93F9",
-            "fontStyle": "italic"
+            "note": "clangd: parameter.readonly.functionScope",
+            "foreground": "#FFB86C",
+            "fontStyle": "italic underline"
         },
         "variable.functionScope": {
             "foreground": "#FFB86C",

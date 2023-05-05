@@ -81,10 +81,12 @@ public:
     void PrintBalance() { cout << "Checking account balance: " << GetBalance() << endl; }
 };
 
-void testGlobal(void) {
+void testGlobal(void)
+{
     printf("hi");
 }
-static void testStatic(void) {
+static void testStatic(void)
+{
     printf("hello");
 }
 int class_virtual_static_sample()
