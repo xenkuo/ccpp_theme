@@ -58,6 +58,7 @@ public:
     virtual void PrintBalance() { cerr << "Error. Balance not available for base type." << endl; }
     void PrintBalancex() { cerr << "Error. Balance not available for base type." << endl; }
     int Count;
+    const int Price;
     static int StaticCount;
     const static int ConstStaticCount;
     static int Calculate(int a, double d)

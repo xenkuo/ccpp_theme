@@ -1221,7 +1221,7 @@
                 "punctuation.section"
             ],
             "settings": {
-                "foreground": "#F1FA8C",
+                "foreground": "#FF79C6",
                 "fontStyle": "regular"
             }
         },
@@ -1297,6 +1297,11 @@
     "semanticHighlighting": true,
     "semanticTokenColors": {
         "ccpp_comment1": "=============`ccpp` customized semantic(ms c/c++ and clangd) tokens=============",
+        "memberOperatorOverload": {
+            "note": "ms c/c++ only",
+            "foreground": "#FF79C6",
+            "fontStyle": "underline"
+        },
         "type": {
             "note": "1/clangd: uint8_t; ms c/c++: clangd type + clangd class/enum",
             "foreground": "#8BE9FD",
@@ -1391,7 +1396,7 @@
         "ccpp_comment1.2": "=============`ccpp` customized variable tokens=============",
         "property": {
             "note": "clangd: property.*.classScope, ms c/c++: all non static fields defined inside of class, struct, union",
-            "foreground": "#FFB86C",
+            "foreground": "#F1FA8C",
             "fontStyle": "regular"
         },
         "parameter": {
