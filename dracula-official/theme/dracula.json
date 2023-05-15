@@ -1,7 +1,12 @@
 {
-    "name": "C/C++ Theme",
-    "author": "Xen Kuo",
-    "based_dracula_version": "2.24.2",
+    "$schema": "vscode://schemas/color-theme",
+    "name": "Dracula",
+    "author": "Zeno Rocha",
+    "maintainers": [
+        "Derek P Sifford <dereksifford@gmail.com>"
+    ],
+    "semanticClass": "theme.dracula",
+    "semanticHighlighting": true,
     "dracula": {
         "base": [
             "#282A36",
@@ -100,7 +105,7 @@
         "list.inactiveSelectionBackground": "#44475A75",
         "list.warningForeground": "#FFB86C",
         "list.errorForeground": "#FF5555",
-        "activityBar.background": "#01360A",
+        "activityBar.background": "#343746",
         "activityBar.inactiveForeground": "#6272A4",
         "activityBar.foreground": "#F8F8F2",
         "activityBar.activeBorder": "#FF79C680",
@@ -114,7 +119,7 @@
         "editorGroup.border": "#BD93F9",
         "editorGroup.dropBackground": "#44475A70",
         "editorGroupHeader.tabsBackground": "#191A21",
-        "tab.activeBackground": "#424450",
+        "tab.activeBackground": "#282A36",
         "tab.activeForeground": "#F8F8F2",
         "tab.border": "#191A21",
         "tab.activeBorderTop": "#FF79C680",
@@ -211,9 +216,9 @@
         "statusBarItem.prominentHoverBackground": "#FFB86C",
         "statusBarItem.remoteForeground": "#282A36",
         "statusBarItem.remoteBackground": "#BD93F9",
-        "titleBar.activeBackground": "#01360A",
-        "titleBar.activeForeground": "#69FF94",
-        "titleBar.inactiveBackground": "#024C0E",
+        "titleBar.activeBackground": "#21222C",
+        "titleBar.activeForeground": "#F8F8F2",
+        "titleBar.inactiveBackground": "#191A21",
         "titleBar.inactiveForeground": "#6272A4",
         "extensionButton.prominentForeground": "#F8F8F2",
         "extensionButton.prominentBackground": "#50FA7B90",
@@ -534,8 +539,7 @@
                 "wildcard.comment"
             ],
             "settings": {
-                "foreground": "#6272A4",
-                "fontStyle": "regular"
+                "foreground": "#6272A4"
             }
         },
         {
@@ -1177,286 +1181,6 @@
                 "foreground": "#F1FA8C",
                 "fontStyle": "bold"
             }
-        },
-        {
-            "ccpp_comment0": "=============`ccpp` customized textmate tokens============="
-        },
-        {
-            "name": "storage types and modifiers",
-            "scope": [
-                "storage.type",
-                "storage.modifier"
-            ],
-            "settings": {
-                "foreground": "#FF79C6",
-                "fontStyle": "regular"
-            }
-        },
-        {
-            "name": "keywords",
-            "scope": [
-                "keyword",
-                "entity.name.operatorv"
-            ],
-            "settings": {
-                "foreground": "#50FA7B",
-                "fontStyle": "regular"
-            }
-        },
-        {
-            "name": "keywords special",
-            "scope": [
-                "keyword.operator.logical",
-                "keyword.operator.comparison"
-            ],
-            "settings": {
-                "foreground": "#50FA7B",
-                "fontStyle": "underline"
-            }
-        },
-        {
-            "name": "punctuation",
-            "scope": [
-                "punctuation.separator.pointer-access",
-                "punctuation.separator.dot-access",
-                "punctuation.section"
-            ],
-            "settings": {
-                "foreground": "#FF79C6",
-                "fontStyle": "regular"
-            }
-        },
-        {
-            "name": "decimal",
-            "scope": [
-                "constant.numeric"
-            ],
-            "settings": {
-                "foreground": "#F1FA8C",
-                "fontStyle": "regular"
-            }
-        },
-        {
-            "name": "string",
-            "scope": [
-                "string",
-                "string.quoted.double"
-            ],
-            "settings": {
-                "foreground": "#F1FA8C",
-                "fontStyle": "regular"
-            }
-        },
-        {
-            "name": "namespace",
-            "scope": [
-                "entity.name.namespace"
-            ],
-            "settings": {
-                "foreground": "#F8F8F2",
-                "fontStyle": "bold"
-            }
-        },
-        {
-            "name": "textmate macro token",
-            "scope": [
-                "meta.preprocessor",
-                "meta.preprocessor.macro"
-            ],
-            "settings": {
-                "foreground": "#BD93F9",
-                "fontStyle": "bold"
-            }
-        },
-        {
-            "ccpp_comment0.1": "=============`ccpp` customized textmate function tokens============="
-        },
-        {
-            "name": "function tokens, sometimes ms c/c++ can't recognize all function tokens",
-            "scope": [
-                "meta.function-call.c",
-                "meta.function.definition.c",
-                "entity.name.function.definition.cpp",
-                "entity.name.function.call.cpp"
-            ],
-            "settings": {
-                "foreground": "#50FA7B",
-                "fontStyle": "bold"
-            }
-        },
-        {
-            "name": "member type function token",
-            "scope": [
-                "entity.name.function.member.cpp"
-            ],
-            "settings": {
-                "foreground": "#50FA7B",
-                "fontStyle": "italic"
-            }
         }
-    ],
-    "semanticHighlighting": true,
-    "semanticTokenColors": {
-        "ccpp_comment1": "=============`ccpp` customized semantic(ms c/c++ and clangd) tokens=============",
-        "memberOperatorOverload": {
-            "note": "ms c/c++ only",
-            "foreground": "#FF79C6",
-            "fontStyle": "underline"
-        },
-        "type": {
-            "note": "1/clangd: uint8_t; ms c/c++: clangd type + clangd class/enum",
-            "foreground": "#8BE9FD",
-            "fontStyle": "regular"
-        },
-        "class": {
-            "note": "2/clangd class only",
-            "foreground": "#8BE9FD",
-            "fontStyle": "regular"
-        },
-        "enum": {
-            "note": "3/clangd enum only",
-            "foreground": "#8BE9FD",
-            "fontStyle": "regular"
-        },
-        "macro": {
-            "note": "both clangd and ms c/c++",
-            "foreground": "#BD93F9",
-            "fontStyle": "bold"
-        },
-        "enumMember": {
-            "note": "both clangd and ms c/c++",
-            "foreground": "#8BE9FD",
-            "fontStyle": "bold"
-        },
-        "label": {
-            "note": "ms c/c++ only",
-            "foreground": "#FF5555",
-            "fontStyle": "underline"
-        },
-        "ccpp_comment1.1": "=============`ccpp` customized function tokens=============",
-        "ccpp_comment1.1.0": "=============`ccpp` customized clangd function tokens=============",
-        "method.virtual.classScope": {
-            "foreground": "#50FA7B",
-            "fontStyle": "underline"
-        },
-        "method.declaration.virtual.classScope": {
-            "foreground": "#50FA7B",
-            "fontStyle": "underline"
-        },
-        "method.classScope": {
-            "foreground": "#50FA7B",
-            "fontStyle": "italic"
-        },
-        "method.declaration.classScope": {
-            "foreground": "#50FA7B",
-            "fontStyle": "italic"
-        },
-        "function.fileScope": {
-            "foreground": "#50FA7B",
-            "fontStyle": "italic"
-        },
-        "function.declaration.fileScope": {
-            "foreground": "#50FA7B",
-            "fontStyle": "italic"
-        },
-        "method": {
-            "note": "ms c/c++ has same token",
-            "foreground": "#50FA7B",
-            "fontStyle": "italic"
-        },
-        "function.static.classScope": {
-            "foreground": "#50FA7B",
-            "fontStyle": "bold"
-        },
-        "function.declaration.static.classScope": {
-            "foreground": "#50FA7B",
-            "fontStyle": "bold"
-        },
-        "function.globalScope": {
-            "foreground": "#50FA7B",
-            "fontStyle": "bold"
-        },
-        "function.declaration.globalScope": {
-            "foreground": "#50FA7B",
-            "fontStyle": "bold"
-        },
-        "function.defaultLibrary": {
-            "foreground": "#50FA7B",
-            "fontStyle": "bold"
-        },
-        "ccpp_comment1.1.1": "=============`ccpp` customized ms c/c++ function tokens=============",
-        "method.static": {
-            "note": "another method token is shared with clangd",
-            "foreground": "#50FA7B",
-            "fontStyle": "bold"
-        },
-        "function": {
-            "foreground": "#50FA7B",
-            "fontStyle": "bold"
-        },
-        "ccpp_comment1.2": "=============`ccpp` customized variable tokens=============",
-        "property": {
-            "note": "clangd: property.*.classScope, ms c/c++: all non static fields defined inside of class, struct, union",
-            "foreground": "#BCAAA4",
-            "fontStyle": "regular"
-        },
-        "parameter": {
-            "note": "clangd: parameter.functionScope, ms c/c++: parameter",
-            "foreground": "#FFB86C",
-            "fontStyle": "regular underline"
-        },
-        "parameter.readonly": {
-            "note": "clangd: parameter.readonly.functionScope",
-            "foreground": "#FFB86C",
-            "fontStyle": "italic underline"
-        },
-        "variable.functionScope": {
-            "foreground": "#FFB86C",
-            "fontStyle": "regular"
-        },
-        "variable.local": {
-            "foreground": "#FFB86C",
-            "fontStyle": "regular"
-        },
-        "variable.readonly.functionScope": {
-            "foreground": "#FFB86C",
-            "fontStyle": "italic"
-        },
-        "variable.static.functionScope": {
-            "foreground": "#FF5555",
-            "fontStyle": "bold underline"
-        },
-        "variable.static.classScope": {
-            "foreground": "#FF5555",
-            "fontStyle": "bold underline"
-        },
-        "variable.fileScope": {
-            "foreground": "#FF5555",
-            "fontStyle": "bold underline"
-        },
-        "property.static": {
-            "foreground": "#FF5555",
-            "fontStyle": "bold  underline"
-        },
-        "variable.readonly.static.classScope": {
-            "foreground": "#FF5555",
-            "fontStyle": "bold italic underline"
-        },
-        "variable.readonly.fileScope": {
-            "foreground": "#FF5555",
-            "fontStyle": "bold italic underline"
-        },
-        "variable.globalScope": {
-            "foreground": "#FF5555",
-            "fontStyle": "bold"
-        },
-        "variable.global": {
-            "foreground": "#FF5555",
-            "fontStyle": "bold"
-        },
-        "variable.readonly.globalScope": {
-            "foreground": "#FF5555",
-            "fontStyle": "bold italic"
-        }
-    }
+    ]
 }

@@ -10,7 +10,7 @@
 #include <stdio.h>
 #include <string.h>
 
-#define KEEPALIVE_IDLE 1
+#define KEEPALIVE_IDLE 1    // theme
 #define KEEPALIVE_INTERVAL 100
 #define KEEPALIVE_COUNT CONFIG_EXAMPLE_KEEPALIVE_COUNT
 
