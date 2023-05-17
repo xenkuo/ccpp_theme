@@ -1281,7 +1281,7 @@
             ],
             "settings": {
                 "foreground": "#5FEA77",
-                "fontStyle": "bold"
+                "fontStyle": "regular"
             }
         },
         {
@@ -1366,33 +1366,33 @@
         },
         "function.static.classScope": {
             "foreground": "#5FEA77",
-            "fontStyle": "bold"
+            "fontStyle": "regular"
         },
         "function.declaration.static.classScope": {
             "foreground": "#5FEA77",
-            "fontStyle": "bold"
+            "fontStyle": "regular"
         },
         "function.globalScope": {
             "foreground": "#5FEA77",
-            "fontStyle": "bold"
+            "fontStyle": "regular"
         },
         "function.declaration.globalScope": {
             "foreground": "#5FEA77",
-            "fontStyle": "bold"
+            "fontStyle": "regular"
         },
         "function.defaultLibrary": {
             "foreground": "#5FEA77",
-            "fontStyle": "bold"
+            "fontStyle": "regular"
         },
         "ccpp_comment1.1.1": "=============`ccpp` customized ms c/c++ function tokens=============",
         "method.static": {
             "note": "another method token is shared with clangd",
             "foreground": "#5FEA77",
-            "fontStyle": "bold"
+            "fontStyle": "regular"
         },
         "function": {
             "foreground": "#5FEA77",
-            "fontStyle": "bold"
+            "fontStyle": "regular"
         },
         "ccpp_comment1.2": "=============`ccpp` customized variable tokens=============",
         "property": {
