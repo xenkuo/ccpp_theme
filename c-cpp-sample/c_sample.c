@@ -63,8 +63,7 @@ static void tcp_server_task(void *pvParameters, const int readonly)
 
     // sample of bit operators and logic operators
     if (((uint32_t *) & (local_struct.cnt) && (uint32_t*)(local_struct_ptr)) &&
-            (ip_protocol | readonly) ||
-        (0))
+            (ip_protocol | readonly) || (1 > 2) && (3 == 4))
     {
         printf("It's important to highlight logic operators as sometimes you may "
                "make it wrong.");
