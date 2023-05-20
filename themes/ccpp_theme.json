@@ -1274,7 +1274,7 @@
                 "meta.preprocessor.macro"
             ],
             "settings": {
-                "foreground": "#BD93F9",
+                "foreground": "#FF79C6",
                 "fontStyle": "bold"
             }
         },
@@ -1335,7 +1335,7 @@
         },
         "macro": {
             "note": "both clangd and ms c/c++",
-            "foreground": "#BD93F9",
+            "foreground": "#FF79C6",
             "fontStyle": "bold"
         },
         "enumMember": {
