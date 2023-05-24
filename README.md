@@ -7,21 +7,21 @@
 ---
 
 **C/C++ Theme** utilizes power of semantic tokenization engine and the awesome [Dracula Official Theme](https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula)
-, provides a systematic, consistent and non distractive C/C++ programming experience.
+, provides a systematic, consistent C/C++ programming experience.
 
 In short, **C/C++ Theme** recognizes more C/C++ syntax symbols and renders them in a opinionated way. :) Below are some samples.
 
 > C/C++ Theme with MS C/C++ extension
 
-![](Image/README_2023-05-05-19-47-12.png)
+![](Image/README_2023-05-24-19-46-34.png)
 
 > C/C++ Theme with clangd extension
 
-![](Image/README_2023-05-05-19-49-58.png)
+![](Image/README_2023-05-24-19-49-49.png)
 
 **C/C++ Theme** supports both MS C/C++ extension and clangd extension, and provides a consistent(similar but not exactly same) rendering result. If you want to know the exact tokens **C/C++ Theme** could support, please refer to below image:
 
-![](Image/ccpp_whole_picture.png)
+![](Image/The%20C%202023-04-29%2021.23.52.excalidraw.png)
 
 Beside of recognizing of so many tokens, **C/C++ Theme** tries to have kind of design logic. It has these built-in principles to achieve the goal:
 
