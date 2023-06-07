@@ -1418,7 +1418,7 @@
         "parameter": {
             "note": "clangd: parameter.functionScope, ms c/c++: parameter",
             "foreground": "#FFB86C",
-            "fontStyle": "regular underline"
+            "fontStyle": "regular italic"
         },
         "parameter.readonly": {
             "note": "clangd: parameter.readonly.functionScope",
@@ -1426,32 +1426,39 @@
             "fontStyle": "italic underline"
         },
         "variable.functionScope": {
+            "name": "local variable",
             "foreground": "#FFB86C",
             "fontStyle": "regular"
         },
         "variable.local": {
+            "name": "local variable",
             "foreground": "#FFB86C",
             "fontStyle": "regular"
         },
         "variable.readonly.functionScope": {
+            "name": "local variable readonly",
             "foreground": "#FFB86C",
-            "fontStyle": "italic"
+            "fontStyle": "underline"
         },
         "variable.static.functionScope": {
+            "name": "static variable",
             "foreground": "#FF5555",
-            "fontStyle": "bold underline"
+            "fontStyle": "bold italic"
         },
         "variable.static.classScope": {
+            "name": "static variable",
             "foreground": "#FF5555",
-            "fontStyle": "bold underline"
+            "fontStyle": "bold italic"
         },
         "variable.fileScope": {
+            "name": "static variable",
             "foreground": "#FF5555",
-            "fontStyle": "bold underline"
+            "fontStyle": "bold italic"
         },
         "property.static": {
+            "name": "static variable",
             "foreground": "#FF5555",
-            "fontStyle": "bold  underline"
+            "fontStyle": "bold  italic"
         },
         "variable.readonly.static.classScope": {
             "foreground": "#FF5555",
@@ -1471,7 +1478,7 @@
         },
         "variable.readonly.globalScope": {
             "foreground": "#FF5555",
-            "fontStyle": "bold italic"
+            "fontStyle": "bold underline"
         }
     }
 }
