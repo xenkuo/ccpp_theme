@@ -59,7 +59,7 @@ static void tcp_server_task(void *pvParameters, const int readonly)
     {
         printf("Dot access and pointer access can be distinguished but no need to "
                "tell that, right?");
-    }
+    } 
 
     // sample of bit operators and logic operators
     if (((uint32_t *) & (local_struct.cnt) && (uint32_t*)(local_struct_ptr)) &&

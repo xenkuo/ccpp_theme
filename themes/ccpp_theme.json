@@ -1182,7 +1182,7 @@
             "TODO: c/c++ theme start point TODO:": 20230529
         },
         {
-            "ccpp_comment0": "=============`ccpp` customized textmate tokens============="
+            "TODO: ccpp_comment0": "=============`ccpp` customized textmate tokens============="
         },
         {
             "name": "storage modifiers and types",
@@ -1282,13 +1282,14 @@
             }
         },
         {
-            "ccpp_comment0.1": "=============`ccpp` customized textmate function tokens============="
+            "TODO: ccpp_comment0.1": "=============`ccpp` customized textmate function tokens============="
         },
         {
             "name": "function tokens, sometimes ms c/c++ can't recognize all function tokens",
             "scope": [
                 "meta.function-call.c",
                 "meta.function.definition.c",
+                "entity.name.function.c",
                 "entity.name.function.definition.cpp",
                 "entity.name.function.call.cpp"
             ],
@@ -1310,7 +1311,7 @@
     ],
     "semanticHighlighting": true,
     "semanticTokenColors": {
-        "ccpp_comment1": "=============`ccpp` customized semantic(ms c/c++ and clangd) tokens=============",
+        "TODO: ccpp_comment1": "=============`ccpp` customized semantic(ms c/c++ and clangd) tokens=============",
         "memberOperatorOverload": {
             "note": "ms c/c++ only",
             "foreground": "#5FEA77",
@@ -1351,8 +1352,8 @@
             "foreground": "#FF5555",
             "fontStyle": "underline"
         },
-        "ccpp_comment1.1": "=============`ccpp` customized function tokens=============",
-        "ccpp_comment1.1.0": "=============`ccpp` customized clangd function tokens=============",
+        "TODO: ccpp_comment1.1": "=============`ccpp` customized function tokens=============",
+        "TODO: ccpp_comment1.1.0": "=============`ccpp` customized clangd function tokens=============",
         "method.virtual.classScope": {
             "foreground": "#5FEA77",
             "fontStyle": "underline"
@@ -1402,7 +1403,7 @@
             "foreground": "#5FEA77",
             "fontStyle": "regular"
         },
-        "ccpp_comment1.1.1": "=============`ccpp` customized ms c/c++ function tokens=============",
+        "TODO: ccpp_comment1.1.1": "=============`ccpp` customized ms c/c++ function tokens=============",
         "method.static": {
             "note": "another method token is shared with clangd",
             "foreground": "#5FEA77",
@@ -1412,7 +1413,7 @@
             "foreground": "#5FEA77",
             "fontStyle": "regular"
         },
-        "ccpp_comment1.2": "=============`ccpp` customized variable tokens=============",
+        "TODO: ccpp_comment1.2": "=============`ccpp` customized variable tokens=============",
         "property": {
             "note": "clangd: property.*.classScope, ms c/c++: all non static fields defined inside of class, struct, union",
             "foreground": "#BCAAA4",

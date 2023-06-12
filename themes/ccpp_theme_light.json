@@ -948,7 +948,7 @@
             "TODO: c/c++ theme start point TODO:": 20230529
         },
         {
-            "ccpp_comment0": "=============`ccpp` customized textmate tokens============="
+            "TODO: ccpp_comment0": "=============`ccpp` customized textmate tokens============="
         },
         {
             "name": "storage modifiers and types",
@@ -957,7 +957,7 @@
                 "storage.type"
             ],
             "settings": {
-                "foreground": "#5FEA77",
+                "foreground": "#000000ff",
                 "fontStyle": "regular"
             }
         },
@@ -967,7 +967,7 @@
                 "storage.type.built-in"
             ],
             "settings": {
-                "foreground": "#8BE9FD",
+                "foreground": "#04a4e5ff",
                 "fontStyle": "regular"
             }
         },
@@ -978,7 +978,7 @@
                 "entity.name.operatorv"
             ],
             "settings": {
-                "foreground": "#5FEA77",
+                "foreground": "#000000ff",
                 "fontStyle": "regular"
             }
         },
@@ -989,7 +989,7 @@
                 "keyword.operator.comparison"
             ],
             "settings": {
-                "foreground": "#FF5555",
+                "foreground": "#f31459ff",
                 "fontStyle": "regular"
             }
         },
@@ -1001,7 +1001,7 @@
                 "punctuation.section"
             ],
             "settings": {
-                "foreground": "#5FEA77",
+                "foreground": "#000000ff",
                 "fontStyle": "regular"
             }
         },
@@ -1011,7 +1011,7 @@
                 "constant.numeric"
             ],
             "settings": {
-                "foreground": "#EAF48C",
+                "foreground": "#0083c0ff",
                 "fontStyle": "regular"
             }
         },
@@ -1022,7 +1022,7 @@
                 "string.quoted.double"
             ],
             "settings": {
-                "foreground": "#EAF48C",
+                "foreground": "#0083c0ff",
                 "fontStyle": "regular"
             }
         },
@@ -1032,7 +1032,7 @@
                 "entity.name.namespace"
             ],
             "settings": {
-                "foreground": "#F5F5EF",
+                "foreground": "#000000fe",
                 "fontStyle": "bold"
             }
         },
@@ -1043,23 +1043,24 @@
                 "meta.preprocessor.macro"
             ],
             "settings": {
-                "foreground": "#FF79C6",
+                "foreground": "#d52753ff",
                 "fontStyle": "bold"
             }
         },
         {
-            "ccpp_comment0.1": "=============`ccpp` customized textmate function tokens============="
+            "TODO: ccpp_comment0.1": "=============`ccpp` customized textmate function tokens============="
         },
         {
             "name": "function tokens, sometimes ms c/c++ can't recognize all function tokens",
             "scope": [
                 "meta.function-call.c",
                 "meta.function.definition.c",
+                "entity.name.function.c",
                 "entity.name.function.definition.cpp",
                 "entity.name.function.call.cpp"
             ],
             "settings": {
-                "foreground": "#5FEA77",
+                "foreground": "#000000ff",
                 "fontStyle": "regular"
             }
         },
@@ -1069,184 +1070,184 @@
                 "entity.name.function.member.cpp"
             ],
             "settings": {
-                "foreground": "#5FEA77",
+                "foreground": "#000000ff",
                 "fontStyle": "italic"
             }
         }
     ],
     "semanticHighlighting": true,
     "semanticTokenColors": {
-        "ccpp_comment1": "=============`ccpp` customized semantic(ms c/c++ and clangd) tokens=============",
+        "TODO: ccpp_comment1": "=============`ccpp` customized semantic(ms c/c++ and clangd) tokens=============",
         "memberOperatorOverload": {
             "note": "ms c/c++ only",
-            "foreground": "#5FEA77",
+            "foreground": "#000000ff",
             "fontStyle": "italic bold"
         },
         "operatorOverload": {
             "note": "ms c/c++ only",
-            "foreground": "#5FEA77",
+            "foreground": "#000000ff",
             "fontStyle": "italic bold"
         },
         "type": {
             "note": "1/clangd: uint8_t; ms c/c++: clangd type + clangd class/enum",
-            "foreground": "#8BE9FD",
+            "foreground": "#04a4e5ff",
             "fontStyle": "regular"
         },
         "class": {
             "note": "2/clangd class only",
-            "foreground": "#8BE9FD",
+            "foreground": "#04a4e5ff",
             "fontStyle": "regular"
         },
         "enum": {
             "note": "3/clangd enum only",
-            "foreground": "#8BE9FD",
+            "foreground": "#04a4e5ff",
             "fontStyle": "regular"
         },
         "macro": {
             "note": "both clangd and ms c/c++",
-            "foreground": "#FF79C6",
+            "foreground": "#d52753ff",
             "fontStyle": "bold"
         },
         "enumMember": {
             "note": "both clangd and ms c/c++",
-            "foreground": "#8BE9FD",
+            "foreground": "#04a4e5ff",
             "fontStyle": "bold"
         },
         "label": {
             "note": "ms c/c++ only",
-            "foreground": "#FF5555",
+            "foreground": "#f31459ff",
             "fontStyle": "underline"
         },
-        "ccpp_comment1.1": "=============`ccpp` customized function tokens=============",
-        "ccpp_comment1.1.0": "=============`ccpp` customized clangd function tokens=============",
+        "TODO: ccpp_comment1.1": "=============`ccpp` customized function tokens=============",
+        "TODO: ccpp_comment1.1.0": "=============`ccpp` customized clangd function tokens=============",
         "method.virtual.classScope": {
-            "foreground": "#5FEA77",
+            "foreground": "#000000ff",
             "fontStyle": "underline"
         },
         "method.declaration.virtual.classScope": {
-            "foreground": "#5FEA77",
+            "foreground": "#000000ff",
             "fontStyle": "underline"
         },
         "method.classScope": {
-            "foreground": "#5FEA77",
+            "foreground": "#000000ff",
             "fontStyle": "italic"
         },
         "method.declaration.classScope": {
-            "foreground": "#5FEA77",
+            "foreground": "#000000ff",
             "fontStyle": "italic"
         },
         "function.fileScope": {
-            "foreground": "#5FEA77",
+            "foreground": "#000000ff",
             "fontStyle": "italic"
         },
         "function.declaration.fileScope": {
-            "foreground": "#5FEA77",
+            "foreground": "#000000ff",
             "fontStyle": "italic"
         },
         "method": {
             "note": "ms c/c++ has same token",
-            "foreground": "#5FEA77",
+            "foreground": "#000000ff",
             "fontStyle": "italic"
         },
         "function.static.classScope": {
-            "foreground": "#5FEA77",
+            "foreground": "#000000ff",
             "fontStyle": "regular"
         },
         "function.declaration.static.classScope": {
-            "foreground": "#5FEA77",
+            "foreground": "#000000ff",
             "fontStyle": "regular"
         },
         "function.globalScope": {
-            "foreground": "#5FEA77",
+            "foreground": "#000000ff",
             "fontStyle": "regular"
         },
         "function.declaration.globalScope": {
-            "foreground": "#5FEA77",
+            "foreground": "#000000ff",
             "fontStyle": "regular"
         },
         "function.defaultLibrary": {
-            "foreground": "#5FEA77",
+            "foreground": "#000000ff",
             "fontStyle": "regular"
         },
-        "ccpp_comment1.1.1": "=============`ccpp` customized ms c/c++ function tokens=============",
+        "TODO: ccpp_comment1.1.1": "=============`ccpp` customized ms c/c++ function tokens=============",
         "method.static": {
             "note": "another method token is shared with clangd",
-            "foreground": "#5FEA77",
+            "foreground": "#000000ff",
             "fontStyle": "regular"
         },
         "function": {
-            "foreground": "#5FEA77",
+            "foreground": "#000000ff",
             "fontStyle": "regular"
         },
-        "ccpp_comment1.2": "=============`ccpp` customized variable tokens=============",
+        "TODO: ccpp_comment1.2": "=============`ccpp` customized variable tokens=============",
         "property": {
             "note": "clangd: property.*.classScope, ms c/c++: all non static fields defined inside of class, struct, union",
-            "foreground": "#BCAAA4",
+            "foreground": "#ad6852ff",
             "fontStyle": "regular"
         },
         "parameter": {
             "note": "clangd: parameter.functionScope, ms c/c++: parameter",
-            "foreground": "#FFB86C",
+            "foreground": "#1aa14dff",
             "fontStyle": "regular italic"
         },
         "parameter.readonly": {
             "note": "clangd: parameter.readonly.functionScope",
-            "foreground": "#FFB86C",
+            "foreground": "#1aa14dff",
             "fontStyle": "italic underline"
         },
         "variable.functionScope": {
             "name": "local variable",
-            "foreground": "#FFB86C",
+            "foreground": "#1aa14dff",
             "fontStyle": "regular"
         },
         "variable.local": {
             "name": "local variable",
-            "foreground": "#FFB86C",
+            "foreground": "#1aa14dff",
             "fontStyle": "regular"
         },
         "variable.readonly.functionScope": {
             "name": "local variable readonly",
-            "foreground": "#FFB86C",
+            "foreground": "#1aa14dff",
             "fontStyle": "underline"
         },
         "variable.static.functionScope": {
             "name": "static variable",
-            "foreground": "#FF5555",
+            "foreground": "#f31459ff",
             "fontStyle": "bold italic"
         },
         "variable.static.classScope": {
             "name": "static variable",
-            "foreground": "#FF5555",
+            "foreground": "#f31459ff",
             "fontStyle": "bold italic"
         },
         "variable.fileScope": {
             "name": "static variable",
-            "foreground": "#FF5555",
+            "foreground": "#f31459ff",
             "fontStyle": "bold italic"
         },
         "property.static": {
             "name": "static variable",
-            "foreground": "#FF5555",
+            "foreground": "#f31459ff",
             "fontStyle": "bold  italic"
         },
         "variable.readonly.static.classScope": {
-            "foreground": "#FF5555",
+            "foreground": "#f31459ff",
             "fontStyle": "bold italic underline"
         },
         "variable.readonly.fileScope": {
-            "foreground": "#FF5555",
+            "foreground": "#f31459ff",
             "fontStyle": "bold italic underline"
         },
         "variable.globalScope": {
-            "foreground": "#FF5555",
+            "foreground": "#f31459ff",
             "fontStyle": "bold"
         },
         "variable.global": {
-            "foreground": "#FF5555",
+            "foreground": "#f31459ff",
             "fontStyle": "bold"
         },
         "variable.readonly.globalScope": {
-            "foreground": "#FF5555",
+            "foreground": "#f31459ff",
             "fontStyle": "bold underline"
         }
     }

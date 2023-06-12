@@ -2,10 +2,12 @@
 
 | Color Name | Dark Value | Light Value |
 | ---------- | ---------- | ----------- |
-| red        | #FF5555    | #d52753     |
-| cyan       | #5FEA77    | #275fe4     |
-| deep cyan  | #8BE9FD    | #009ae5     |
-| yellow     | #EAF48C    | #c5a332     |
-| orange     | #FFB86C    | #ffa023     |
-| brown      | #BCAAA4    | #a05a48     |
-| magenta    | #FF79C6    | #ff637f     |
+| background | #282A36    | #f9f9f9ff   |
+| red        | #FF5555    | #000000ff   |
+| cyan       | #5FEA77    | #de2b5dff   |
+| deep cyan  | #8BE9FD    | #04a4e5ff   |
+| yellow     | #EAF48C    | #0083c0ff   |
+| orange     | #FFB86C    | #275fe4ff   |
+| brown      | #BCAAA4    | #ad6852ff   |
+| magenta    | #FF79C6    | #d52753ff   |
+| white      | #F5F5EF    | #000000fe   |
