@@ -2,7 +2,7 @@
     "name": "ccpp-theme",
     "displayName": "C/C++ Theme",
     "description": "The language C/C++ focused theme, powered by MS C/C++ and clangd semantic token engine.",
-    "version": "0.2.3",
+    "version": "0.2.4",
     "engines": {
         "vscode": "^1.47.0"
     },
@@ -31,6 +31,11 @@
                 "label": "C/C++ Theme",
                 "uiTheme": "vs-dark",
                 "path": "./themes/ccpp_theme.json"
+            },
+            {
+                "label": "C/C++ Theme Light",
+                "uiTheme": "vs",
+                "path": "./themes/ccpp_theme_light.json"
             }
         ]
     }
