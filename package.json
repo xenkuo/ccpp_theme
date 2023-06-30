@@ -2,7 +2,7 @@
     "name": "ccpp-theme",
     "displayName": "C/C++ Theme",
     "description": "The language C/C++ focused theme, powered by MS C/C++ and clangd semantic token engine.",
-    "version": "0.3.0",
+    "version": "0.3.1",
     "engines": {
         "vscode": "^1.47.0"
     },
@@ -17,6 +17,7 @@
     "keywords": [
         "c/c++",
         "dracula-2.24.2",
+        "bluloco_light-3.7.3",
         "dark",
         "theme",
         "color-theme "

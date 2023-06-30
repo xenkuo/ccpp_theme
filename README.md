@@ -8,6 +8,9 @@
 
 **C/C++ Theme** utilizes the power of VSCode semantic highlighting engine to provide a fluent, systematic C/C++ syntax highlighting experience.
 
+> The dark theme bases on [Dracula Official](https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula), the light theme bases on [Bluloco Light](https://marketplace.visualstudio.com/items?itemName=uloco.theme-bluloco-light), so supposedly it should work with other language as well.
+
+
 **C/C++ Theme** recognizes more C/C++ syntax symbols and renders them in a opinionated way. :) Below are some samples.
 
 > C/C++ Theme with MS C/C++ extension
