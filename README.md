@@ -6,12 +6,11 @@
 
 ---
 
-**C/C++ Theme** utilizes the power of VSCode semantic highlighting engine to provide a fluent, systematic C/C++ syntax highlighting experience.
+**C/C++ Theme** utilizes the power of VSCode semantic highlighting engine to recognize more token types and provide a fluent, systematic C/C++ syntax highlighting experience.
 
 > The dark theme bases on [Dracula Official](https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula), the light theme bases on [Bluloco Light](https://marketplace.visualstudio.com/items?itemName=uloco.theme-bluloco-light), so supposedly it should work with other language as well.
 
-
-**C/C++ Theme** recognizes more C/C++ syntax symbols and renders them in a opinionated way. :) Below are some samples.
+**C/C++ Theme** recognizes more C/C++ syntax symbols and renders them in a opinionated but thoughtful way. Below are some screenshots.
 
 > C/C++ Theme with MS C/C++ extension
 
@@ -49,7 +48,6 @@ Beside of recognizing of so many tokens, **C/C++ Theme** tries to have kind of d
 
 3. Differentiation between MS C++ extension and clangd extension.
     > Both are the top end C/C++ LSPs, clangd offers more precise token types than MS C++, especially to `variable` and `function` types, and it's fast. MS C/C++ offers a more appropriate token set and better compatibility(only my personal experience based on daily usage).
-
 
 ## Development
 
