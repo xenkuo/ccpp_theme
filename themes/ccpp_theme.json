@@ -1027,7 +1027,7 @@
                 "variable.other.constant.tsx"
             ],
             "settings": {
-                "foreground": "#F5F5EF"
+                "foreground": "#FFB86C"
             }
         },
         {
@@ -1050,7 +1050,7 @@
             ],
             "settings": {
                 "fontStyle": "normal",
-                "foreground": "#F5F5EF"
+                "foreground": "#FFB86C"
             }
         },
         {
@@ -1068,7 +1068,7 @@
                 "meta.selectionset.graphql meta.arguments variable"
             ],
             "settings": {
-                "foreground": "#F5F5EF"
+                "foreground": "#FFB86C"
             }
         },
         {
@@ -1099,7 +1099,7 @@
                 "constant.language.empty-list.haskell"
             ],
             "settings": {
-                "foreground": "#F5F5EF"
+                "foreground": "#FFB86C"
             }
         },
         {
@@ -1202,6 +1202,41 @@
             ],
             "settings": {
                 "foreground": "#8BE9FD",
+                "fontStyle": "regular"
+            }
+        },
+        {
+            "name": "python attributes",
+            "scope": [
+                "meta.attribute",
+                "meta.member"
+            ],
+            "settings": {
+                "foreground": "#939CE9",
+                "fontStyle": "regular"
+            }
+        },
+        {
+            "name": "js variables",
+            "scope": [
+                "variable.other.constant.js",
+                "variable.other.object",
+                "variable.other.readwrite.js",
+                "variable.other"
+            ],
+            "settings": {
+                "foreground": "#FFB86C",
+                "fontStyle": "regular"
+            }
+        },
+        {
+            "name": "js properties",
+            "scope": [
+                "variable.other.property",
+                "variable.other.object.property"
+            ],
+            "settings": {
+                "foreground": "#939CE9",
                 "fontStyle": "regular"
             }
         },
@@ -1441,8 +1476,8 @@
         },
         "TODO: ccpp_comment1.2": "=============`ccpp` customized variable tokens=============",
         "property": {
-            "note": "clangd: property.*.classScope, ms c/c++: all non static fields defined inside of class, struct, union",
-            "foreground": "#BD93F9",
+            "note": "clangd: property.*.classScope,B5A0CD 939CF9 a493f9 ms c/c++: all non static fields defined inside of class, struct, union",
+            "foreground": "#939CE9",
             "fontStyle": "regular"
         },
         "parameter": {
@@ -1454,6 +1489,21 @@
             "note": "clangd: parameter.readonly.functionScope",
             "foreground": "#FFB86C",
             "fontStyle": "italic underline"
+        },
+        "variable.builtin": {
+            "name": "python builtin variable",
+            "foreground": "#FFB86C",
+            "fontStyle": "regular"
+        },
+        "variable": {
+            "name": "python other variable",
+            "foreground": "#FFB86C",
+            "fontStyle": "regular"
+        },
+        "variable.declaration": {
+            "name": "python declaration variable",
+            "foreground": "#FFB86C",
+            "fontStyle": "regular"
         },
         "variable.functionScope": {
             "name": "local variable",
