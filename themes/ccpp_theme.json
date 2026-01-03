@@ -1261,16 +1261,6 @@
             }
         },
         {
-            "name": "namespace",
-            "scope": [
-                "entity.name.namespace"
-            ],
-            "settings": {
-                "foreground": "#F5F5EF",
-                "fontStyle": "bold"
-            }
-        },
-        {
             "name": "textmate macro token",
             "scope": [
                 "meta.preprocessor",
@@ -1279,6 +1269,37 @@
             "settings": {
                 "foreground": "#FF79C6",
                 "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "textmate constant token",
+            "scope": [
+                "constant.language"
+            ],
+            "settings": {
+                "foreground": "#FF79C6",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "textmate function token",
+            "scope": [
+                "entity.name.function",
+                "meta.function-call"
+            ],
+            "settings": {
+                "foreground": "#5FEA77",
+                "fontStyle": "regular"
+            }
+        },
+        {
+            "name": "textmate variable token",
+            "scope": [
+                "variable.language"
+            ],
+            "settings": {
+                "foreground": "#FFB86C",
+                "fontStyle": "regular"
             }
         },
         {
@@ -1343,6 +1364,11 @@
             "fontStyle": "bold"
         },
         "enumMember": {
+            "note": "both clangd and ms c/c++",
+            "foreground": "#8BE9FD",
+            "fontStyle": "bold"
+        },
+        "namespace": {
             "note": "both clangd and ms c/c++",
             "foreground": "#8BE9FD",
             "fontStyle": "bold"
@@ -1416,7 +1442,7 @@
         "TODO: ccpp_comment1.2": "=============`ccpp` customized variable tokens=============",
         "property": {
             "note": "clangd: property.*.classScope, ms c/c++: all non static fields defined inside of class, struct, union",
-            "foreground": "#BCAAA4",
+            "foreground": "#BD93F9",
             "fontStyle": "regular"
         },
         "parameter": {
