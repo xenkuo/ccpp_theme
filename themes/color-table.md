@@ -28,5 +28,5 @@
 | Hightlight-2 | number, string                               | #EAF48C             | #0083c0ff   |
 | Neutral      | variable, parameter, variable.language(this) | #FFB86C             | #0aa14dff   |
 | ~~Trivial~~  | ~~const, true/false~~                        | #BD93F9             |             |
-| Secondary    | property, member                             | ~~#BCAAA4~~ #BD93F9 | #ad6852ff   |
+| Secondary    | property, member                             | ~~#BCAAA4~~ #939CE9 | #ad6852ff   |
 | Comment      | comment                                      | #6272A4             |             |

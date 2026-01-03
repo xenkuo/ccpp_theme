@@ -1365,8 +1365,8 @@
         },
         "enumMember": {
             "note": "both clangd and ms c/c++",
-            "foreground": "#8BE9FD",
-            "fontStyle": "bold"
+            "foreground": "#FF79C6",
+            "fontStyle": "bold, italic"
         },
         "namespace": {
             "note": "both clangd and ms c/c++",
