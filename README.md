@@ -6,21 +6,21 @@
 
 ---
 
-**C/C++ Theme** utilizes the power of VSCode semantic highlighting engine to recognize more token types and provide a fluent, systematic C/C++ syntax highlighting experience.
+**C/C++ Pro Theme** utilizes the power of VSCode semantic highlighting engine to recognize more token types and provide a fluent, systematic C/C++ syntax highlighting experience.
 
 > The dark theme bases on [Dracula Official](https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula), the light theme bases on [Bluloco Light](https://marketplace.visualstudio.com/items?itemName=uloco.theme-bluloco-light), so supposedly it should work with other language as well.
 
-**C/C++ Theme** recognizes more C/C++ syntax symbols and renders them in a opinionated but thoughtful way. Below are some screenshots.
+**C/C++ Pro Theme** recognizes more C/C++ syntax symbols and renders them in a opinionated but thoughtful way. Below are some screenshots.
 
-> C/C++ Theme with MS C/C++ extension
+> C/C++ Pro Theme with MS C/C++ extension
 
 ![](Image/README_2023-06-22-21-02-03.png)
 
-> C/C++ Theme with clangd extension
+> C/C++ Pro Theme with clangd extension
 
 ![](Image/README_2023-06-22-21-03-10.png)
 
-**C/C++ Theme** supports both MS C/C++ and clangd LSP, and provides a consistent(similar but not exactly same) rendering result. If you want to learn the token set that **C/C++ Theme** supports, please refer to below image:
+**C/C++ Pro Theme** supports both MS C/C++ and clangd LSP, and provides a consistent(similar but not exactly same) rendering result. If you want to learn the token set that **C/C++ Pro Theme** supports, please refer to below image:
 
 ![](Image/The%20C%202023-04-29%2021.23.52.excalidraw.png)
 

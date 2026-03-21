@@ -98,7 +98,7 @@ npm run build
 **Changes not appearing:**
 1. Run `npm run build` again
 2. Reload VS Code window (`Ctrl+Shift+P` → "Reload Window")
-3. Ensure you're using "C/C++ Theme" (not Light variant)
+3. Ensure you're using "C/C++ Pro Theme" (not Light variant)
 
 **Scope conflicts:**
 - Verify scope matches exactly

@@ -4,3 +4,6 @@ ccpp-theme.code-workspace
 
 # Generated theme file (can be regenerated with npm run build)
 # themes/ccpp_theme.json
+
+# Temporary documentation files
+docs/temporary/

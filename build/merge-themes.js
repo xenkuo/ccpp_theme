@@ -163,7 +163,7 @@ function mergeThemes() {
     // Create final merged theme
     const mergedTheme = {
         ...baseTheme,
-        name: 'C/C++ Theme',
+        name: 'C/C++ Pro Theme',
         author: 'Xen Kuo',
         based_dracula_version: '2.24.2',
         dracula: baseTheme.dracula,

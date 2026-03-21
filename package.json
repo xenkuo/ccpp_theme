@@ -1,6 +1,6 @@
 {
-    "name": "ccpp-theme",
-    "displayName": "C/C++ Theme",
+    "name": "ccpp-pro-theme",
+    "displayName": "C/C++ Pro Theme",
     "description": "The language C/C++ focused theme, powered by MS C/C++ and clangd semantic token engine.",
     "version": "0.3.4",
     "engines": {
@@ -25,19 +25,19 @@
     "categories": [
         "Themes"
     ],
-    "icon": "icon.png",
+    "icon": "Image/icon.png",
     "scripts": {
         "build": "node build/merge-themes.js"
     },
     "contributes": {
         "themes": [
             {
-                "label": "C/C++ Theme",
+                "label": "C/C++ Pro Theme",
                 "uiTheme": "vs-dark",
                 "path": "./themes/ccpp_theme.json"
             },
             {
-                "label": "C/C++ Theme Light",
+                "label": "C/C++ Pro Theme Light",
                 "uiTheme": "vs",
                 "path": "./themes/ccpp_theme_light.json"
             }
