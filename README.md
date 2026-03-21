@@ -14,15 +14,15 @@
 
 > C/C++ Pro Theme with MS C/C++ extension
 
-![](Image/README_2023-06-22-21-02-03.png)
+![](image/README_2023-06-22-21-02-03.png)
 
 > C/C++ Pro Theme with clangd extension
 
-![](Image/README_2023-06-22-21-03-10.png)
+![](image/README_2023-06-22-21-03-10.png)
 
 **C/C++ Pro Theme** supports both MS C/C++ and clangd LSP, and provides a consistent(similar but not exactly same) rendering result. If you want to learn the token set that **C/C++ Pro Theme** supports, please refer to below image:
 
-![](Image/The%20C%202023-04-29%2021.23.52.excalidraw.png)
+![](image/The%20C%202023-04-29%2021.23.52.excalidraw.png)
 
 Beside of recognizing of so many tokens, **C/C++ Theme** tries to have kind of design logic. It has these built-in principles to achieve the goal:
 
