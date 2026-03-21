@@ -26,6 +26,9 @@
         "Themes"
     ],
     "icon": "icon.png",
+    "scripts": {
+        "build": "node build/merge-themes.js"
+    },
     "contributes": {
         "themes": [
             {

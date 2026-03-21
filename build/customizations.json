@@ -1,0 +1,188 @@
+[
+    {
+        "TODO: c/c++ theme start point TODO:": 20230529
+    },
+    {
+        "TODO: ccpp_comment0": "=============`ccpp` customized textmate tokens============="
+    },
+    {
+        "name": "storage modifiers and types",
+        "scope": [
+            "storage.modifier",
+            "storage.type"
+        ],
+        "settings": {
+            "foreground": "#5FEA77",
+            "fontStyle": "regular"
+        }
+    },
+    {
+        "name": "storage built in types: int, float, same with semantic 'type'",
+        "scope": [
+            "storage.type.built-in"
+        ],
+        "settings": {
+            "foreground": "#8BE9FD",
+            "fontStyle": "regular"
+        }
+    },
+    {
+        "name": "python attributes",
+        "scope": [
+            "meta.attribute",
+            "meta.member"
+        ],
+        "settings": {
+            "foreground": "#939CE9",
+            "fontStyle": "regular"
+        }
+    },
+    {
+        "name": "js variables",
+        "scope": [
+            "variable.other.constant.js",
+            "variable.other.object",
+            "variable.other.readwrite.js",
+            "variable.other"
+        ],
+        "settings": {
+            "foreground": "#FFB86C",
+            "fontStyle": "regular"
+        }
+    },
+    {
+        "name": "js properties",
+        "scope": [
+            "variable.other.property",
+            "variable.other.object.property"
+        ],
+        "settings": {
+            "foreground": "#939CE9",
+            "fontStyle": "regular"
+        }
+    },
+    {
+        "name": "keywords",
+        "scope": [
+            "keyword",
+            "entity.name.operatorv"
+        ],
+        "settings": {
+            "foreground": "#5FEA77",
+            "fontStyle": "regular"
+        }
+    },
+    {
+        "name": "keywords special",
+        "scope": [
+            "keyword.operator.logical",
+            "keyword.operator.comparison"
+        ],
+        "settings": {
+            "foreground": "#FF5555",
+            "fontStyle": "regular"
+        }
+    },
+    {
+        "name": "punctuation",
+        "scope": [
+            "punctuation.separator.pointer-access",
+            "punctuation.separator.dot-access",
+            "punctuation.section"
+        ],
+        "settings": {
+            "foreground": "#5FEA77",
+            "fontStyle": "regular"
+        }
+    },
+    {
+        "name": "decimal",
+        "scope": [
+            "constant.numeric"
+        ],
+        "settings": {
+            "foreground": "#EAF48C",
+            "fontStyle": "regular"
+        }
+    },
+    {
+        "name": "string",
+        "scope": [
+            "string",
+            "string.quoted.double"
+        ],
+        "settings": {
+            "foreground": "#EAF48C",
+            "fontStyle": "regular"
+        }
+    },
+    {
+        "name": "textmate macro token",
+        "scope": [
+            "meta.preprocessor",
+            "meta.preprocessor.macro"
+        ],
+        "settings": {
+            "foreground": "#FF79C6",
+            "fontStyle": "bold"
+        }
+    },
+    {
+        "name": "textmate constant token",
+        "scope": [
+            "constant.language"
+        ],
+        "settings": {
+            "foreground": "#FF79C6",
+            "fontStyle": "bold"
+        }
+    },
+    {
+        "name": "textmate function token",
+        "scope": [
+            "entity.name.function",
+            "meta.function-call"
+        ],
+        "settings": {
+            "foreground": "#5FEA77",
+            "fontStyle": "regular"
+        }
+    },
+    {
+        "name": "textmate variable token",
+        "scope": [
+            "variable.language"
+        ],
+        "settings": {
+            "foreground": "#FFB86C",
+            "fontStyle": "regular"
+        }
+    },
+    {
+        "TODO: ccpp_comment0.1": "=============`ccpp` customized textmate function tokens============="
+    },
+    {
+        "name": "function tokens, sometimes ms c/c++ can't recognize all function tokens",
+        "scope": [
+            "meta.function-call.c",
+            "meta.function.definition.c",
+            "entity.name.function.c",
+            "entity.name.function.definition.cpp",
+            "entity.name.function.call.cpp"
+        ],
+        "settings": {
+            "foreground": "#5FEA77",
+            "fontStyle": "regular"
+        }
+    },
+    {
+        "name": "member type function token",
+        "scope": [
+            "entity.name.function.member.cpp"
+        ],
+        "settings": {
+            "foreground": "#5FEA77",
+            "fontStyle": "italic"
+        }
+    }
+]

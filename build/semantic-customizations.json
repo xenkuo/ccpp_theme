@@ -1,0 +1,195 @@
+{
+    "TODO: ccpp_comment1": "=============`ccpp` customized semantic(ms c/c++ and clangd) tokens=============",
+    "memberOperatorOverload": {
+        "note": "ms c/c++ only",
+        "foreground": "#5FEA77",
+        "fontStyle": "italic bold"
+    },
+    "operatorOverload": {
+        "note": "ms c/c++ only",
+        "foreground": "#5FEA77",
+        "fontStyle": "italic bold"
+    },
+    "type": {
+        "note": "1/clangd: uint8_t; ms c/c++: clangd type + clangd class/enum",
+        "foreground": "#8BE9FD",
+        "fontStyle": "regular"
+    },
+    "class": {
+        "note": "2/clangd class only",
+        "foreground": "#8BE9FD",
+        "fontStyle": "regular"
+    },
+    "enum": {
+        "note": "3/clangd enum only",
+        "foreground": "#8BE9FD",
+        "fontStyle": "regular"
+    },
+    "macro": {
+        "note": "both clangd and ms c/c++",
+        "foreground": "#FF79C6",
+        "fontStyle": "bold"
+    },
+    "enumMember": {
+        "note": "both clangd and ms c/c++",
+        "foreground": "#FF79C6",
+        "fontStyle": "bold, italic"
+    },
+    "namespace": {
+        "note": "both clangd and ms c/c++",
+        "foreground": "#8BE9FD",
+        "fontStyle": "bold"
+    },
+    "label": {
+        "note": "ms c/c++ only",
+        "foreground": "#FF5555",
+        "fontStyle": "underline"
+    },
+    "TODO: ccpp_comment1.1": "=============`ccpp` customized function tokens=============",
+    "TODO: ccpp_comment1.1.0": "=============`ccpp` customized clangd function tokens=============",
+    "method.virtual.classScope": {
+        "foreground": "#5FEA77",
+        "fontStyle": "underline"
+    },
+    "method.declaration.virtual.classScope": {
+        "foreground": "#5FEA77",
+        "fontStyle": "underline"
+    },
+    "method.classScope": {
+        "foreground": "#5FEA77",
+        "fontStyle": "italic"
+    },
+    "method.declaration.classScope": {
+        "foreground": "#5FEA77",
+        "fontStyle": "italic"
+    },
+    "function.fileScope": {
+        "foreground": "#5FEA77",
+        "fontStyle": "italic"
+    },
+    "function.declaration.fileScope": {
+        "foreground": "#5FEA77",
+        "fontStyle": "italic"
+    },
+    "method": {
+        "note": "ms c/c++ has same token",
+        "foreground": "#5FEA77",
+        "fontStyle": "italic"
+    },
+    "function.static.classScope": {
+        "foreground": "#5FEA77",
+        "fontStyle": "regular"
+    },
+    "function.declaration.static.classScope": {
+        "foreground": "#5FEA77",
+        "fontStyle": "regular"
+    },
+    "function.globalScope": {
+        "foreground": "#5FEA77",
+        "fontStyle": "regular"
+    },
+    "function.declaration.globalScope": {
+        "foreground": "#5FEA77",
+        "fontStyle": "regular"
+    },
+    "function.defaultLibrary": {
+        "foreground": "#5FEA77",
+        "fontStyle": "regular"
+    },
+    "TODO: ccpp_comment1.1.1": "=============`ccpp` customized ms c/c++ function tokens=============",
+    "method.static": {
+        "note": "another method token is shared with clangd",
+        "foreground": "#5FEA77",
+        "fontStyle": "regular"
+    },
+    "function": {
+        "foreground": "#5FEA77",
+        "fontStyle": "regular"
+    },
+    "TODO: ccpp_comment1.2": "=============`ccpp` customized variable tokens=============",
+    "property": {
+        "note": "clangd: property.*.classScope,B5A0CD 939CF9 a493f9 ms c/c++: all non static fields defined inside of class, struct, union",
+        "foreground": "#939CE9",
+        "fontStyle": "regular"
+    },
+    "parameter": {
+        "note": "clangd: parameter.functionScope, ms c/c++: parameter",
+        "foreground": "#FFB86C",
+        "fontStyle": "regular italic"
+    },
+    "parameter.readonly": {
+        "note": "clangd: parameter.readonly.functionScope",
+        "foreground": "#FFB86C",
+        "fontStyle": "italic underline"
+    },
+    "variable.builtin": {
+        "name": "python builtin variable",
+        "foreground": "#FFB86C",
+        "fontStyle": "regular"
+    },
+    "variable": {
+        "name": "python other variable",
+        "foreground": "#FFB86C",
+        "fontStyle": "regular"
+    },
+    "variable.declaration": {
+        "name": "python declaration variable",
+        "foreground": "#FFB86C",
+        "fontStyle": "regular"
+    },
+    "variable.functionScope": {
+        "name": "local variable",
+        "foreground": "#FFB86C",
+        "fontStyle": "regular"
+    },
+    "variable.local": {
+        "name": "local variable",
+        "foreground": "#FFB86C",
+        "fontStyle": "regular"
+    },
+    "variable.readonly.functionScope": {
+        "name": "local variable readonly",
+        "foreground": "#FFB86C",
+        "fontStyle": "underline"
+    },
+    "variable.static.functionScope": {
+        "name": "static variable",
+        "foreground": "#FF5555",
+        "fontStyle": "bold italic"
+    },
+    "variable.static.classScope": {
+        "name": "static variable",
+        "foreground": "#FF5555",
+        "fontStyle": "bold italic"
+    },
+    "variable.fileScope": {
+        "name": "static variable",
+        "foreground": "#FF5555",
+        "fontStyle": "bold italic"
+    },
+    "property.static": {
+        "name": "static variable",
+        "foreground": "#FF5555",
+        "fontStyle": "bold  italic"
+    },
+    "variable.readonly.static.classScope": {
+        "foreground": "#FF5555",
+        "fontStyle": "bold italic underline"
+    },
+    "variable.readonly.fileScope": {
+        "foreground": "#FF5555",
+        "fontStyle": "bold italic underline"
+    },
+    "variable.globalScope": {
+        "foreground": "#FF5555",
+        "fontStyle": "bold"
+    },
+    "variable.global": {
+        "foreground": "#FF5555",
+        "fontStyle": "bold"
+    },
+    "variable.readonly.globalScope": {
+        "foreground": "#FF5555",
+        "fontStyle": "bold underline"
+    }
+}

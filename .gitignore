@@ -1,3 +1,6 @@
 node_modules
 *.vsix
-ccpp_theme.code-workspace
+ccpp-theme.code-workspace
+
+# Generated theme file (can be regenerated with npm run build)
+# themes/ccpp_theme.json
