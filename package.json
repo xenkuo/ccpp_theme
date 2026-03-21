@@ -34,12 +34,12 @@
             {
                 "label": "C/C++ Pro Theme",
                 "uiTheme": "vs-dark",
-                "path": "./themes/ccpp_theme.json"
+                "path": "./themes/ccpro_theme.json"
             },
             {
                 "label": "C/C++ Pro Theme Light",
                 "uiTheme": "vs",
-                "path": "./themes/ccpp_theme_light.json"
+                "path": "./themes/ccpro_theme_light.json"
             }
         ]
     }

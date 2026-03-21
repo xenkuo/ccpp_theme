@@ -1,0 +1,241 @@
+/* A opinionated markdown preview style for vscode */
+.vscode-body {
+  padding: 15px 20px;
+  color: #172b4d;
+  background-color: #f9f9f9;
+
+  font-size: 16px;
+  font-family: "Noticia Text", Rubik, Cantarell, "Segoe UI", -apple-system,
+    BlinkMacSystemFont, "Noto Sans", "Helvetica Neue", "Source Han Sans CN",
+    sans-serif !important;
+}
+
+code {
+  color: #172b4d;
+  background-clip: padding-box;
+  border-radius: 3px;
+  border: 1px solid #dfe1e6;
+  background-color: #f4f5f7;
+  display: inline-block;
+  margin: 0 2px -1px;
+  padding: 0px 3px;
+  text-decoration: inherit;
+  vertical-align: baseline;
+  font-family: "Cascadia Mono", "lucida grande", "Source Han Sans CN",
+    "Hiragino Sans GB", "Microsoft YaHei ", "WenQuanYi Micro Hei", sans-serif;
+  font-size: 14px;
+}
+
+/* For mermaid preview start */
+text {
+  font-size: 14px !important;
+}
+
+svg {
+  font-size: 14px !important;
+}
+
+/* For mermaid preview end */
+
+/* For table start */
+.vscode-body th {
+  border-color: #707070;
+}
+
+.vscode-body td {
+  border-color: #70707080;
+}
+
+/* For table end */
+
+/* for link preview start */
+kbd {
+  color: #ff79c6;
+  background-color: #ffffff;
+}
+
+/* for separator line */
+hr.code-line {
+  /* border-color: #696969; */
+  border-color: #b4b4b4;
+}
+/* for link preview end */
+
+pre {
+  display: block;
+  padding: 0 !important;
+  border: 0 !important;
+  background-color: transparent !important;
+}
+
+pre code {
+  color: #172b4d;
+  white-space: pre;
+  display: block;
+  line-height: 18px;
+  overflow: auto;
+  padding: 6px 10px;
+  margin: 0;
+  font-size: 14px;
+}
+
+blockquote {
+  border-left: 1px solid #dfe1e6;
+  color: #707070;
+  margin: 10px 0 20px 19px;
+  padding: 10px 20px !important;
+  background-color: #ffffff;
+  background: #ffffff;
+}
+
+blockquote > em,
+blockquote > p {
+  color: #707070;
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  /* line-height: 2.0; */
+  font-weight: bold;
+  font-family: "Myriad Pro Condensed", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+  font-size: 1.6em;
+}
+
+h3 {
+  font-size: 1.4em;
+}
+
+h4 {
+  font-size: 1.2em;
+}
+
+h5 {
+  font-size: 1em;
+}
+
+a {
+  color: #eb9521 !important;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ***************************** */
+/* HighlightJS */
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  color: #333;
+  background: #f8f8f8;
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: #696969;
+  font-style: normal;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-subst {
+  color: #815b3a;
+  font-weight: 400;
+}
+
+.hljs-number {
+  color: #127b27;
+}
+
+.hljs-literal,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag .hljs-attr {
+  color: #c03e32;
+}
+
+.hljs-string,
+.hljs-doctag {
+  color: #c03e32;
+}
+
+.hljs-title,
+.hljs-section,
+.hljs-selector-id {
+  color: #336ea9;
+  font-weight: normal;
+}
+
+.hljs-subst {
+  font-weight: normal;
+}
+
+.hljs-type,
+.hljs-class .hljs-title {
+  color: #458;
+  font-weight: bold;
+}
+
+.hljs-tag,
+.hljs-name,
+.hljs-attr,
+.hljs-params,
+.hljs-attribute {
+  color: #336ea9;
+  font-weight: normal;
+}
+
+.hljs-function {
+  color: #444;
+}
+
+.hljs-regexp,
+.hljs-link {
+  color: #009926;
+}
+
+.hljs-symbol,
+.hljs-bullet {
+  color: #990073;
+}
+
+.hljs-built_in,
+.hljs-builtin-name {
+  color: #0086b3;
+}
+
+.hljs-meta {
+  color: #999;
+  font-weight: bold;
+}
+
+.hljs-deletion {
+  background: #fdd;
+}
+
+.hljs-addition {
+  background: #dfd;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
