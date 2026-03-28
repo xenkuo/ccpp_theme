@@ -1,5 +1,6 @@
 # README
 
+> **C/C++ Theme** has been upgraded to **C/C++ Pro Theme**. The new version provides enhanced syntax token highlighting and improved support for Python, JavaScript, and more. Search for **C/C++ Pro Theme** in the VSCode marketplace or click [here](https://marketplace.visualstudio.com/items?itemName=Xen.ccpro-theme) to try it. While the original version remains available, it is no longer actively maintained. For advanced syntax highlighting features, please upgrade to **C/C++ Pro Theme**.
 ---
 
 **A theme dedicated for C/C++ programer.**
